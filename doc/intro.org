@@ -1,0 +1,11 @@
+* Introduction to tech-crawler
+
+** Goals
+
+Simplify the running of schedule jobs to record the state of sites.
+
+** Design
+
+The core schema for the application state:
+
+app: {user: USER, profile: PROFILE, urls: RECORDING+, reports: STATISTICS}
